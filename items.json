@@ -1,1 +1,13 @@
-[]
+[
+	{
+		"type": "staticButton",
+		"title": " ",
+		"action": "keyPress",
+		"keycode": 111,
+		"align": "right",
+		"image": {
+			"filePath": "~/dev/mtmr-config/icons/terminal.png"
+		},
+		"bordered": false
+	}
+]
