@@ -1,5 +1,26 @@
 [
 	{
+		"type": "appleScriptTitledButton",
+		"refreshInterval": 5,
+		"source": {
+			"filePath": "~/dev/mtmr-config/appleScripts/get-bluetooth-headphones-state.scpt"
+		},
+		"alternativeImages": {
+			"on": {
+				"filePath": "/Users/asdolo/dev/mtmr-config/icons/headphones-connected.png"
+			},
+			"off": {
+				"filePath": "/Users/asdolo/dev/mtmr-config/icons/headphones-disconnected.png"
+			}
+		},
+		"action": "appleScript",
+		"actionAppleScript": {
+			"filePath": "~/dev/mtmr-config/appleScripts/toggle-bluetooth-headphones-state.scpt"
+		},
+		"align": "right",
+		"bordered": false
+	},
+	{
 		"type": "staticButton",
 		"title": " ",
 		"action": "keyPress",
