@@ -22,13 +22,13 @@
 	},
 	{
 		"type": "staticButton",
-		"title": " ",
+		"title": "iTerm",
 		"action": "keyPress",
 		"keycode": 111,
 		"align": "right",
 		"image": {
 			"filePath": "~/dev/mtmr-config/icons/terminal.png"
 		},
-		"bordered": false
+		"background": "#000000"
 	}
 ]
