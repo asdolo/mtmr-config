@@ -1,23 +1,14 @@
 [
 	{
-		"type": "appleScriptTitledButton",
-		"refreshInterval": 5,
+		"type": "shellScriptTitledButton",
 		"source": {
-			"filePath": "~/dev/mtmr-config/appleScripts/get-bluetooth-headphones-state.scpt"
+			"filePath": "~/dev/mtmr-config/shellScripts/upcoming-calendar-events.sh"
 		},
-		"alternativeImages": {
-			"on": {
-				"filePath": "/Users/asdolo/dev/mtmr-config/icons/headphones-connected.png"
-			},
-			"off": {
-				"filePath": "/Users/asdolo/dev/mtmr-config/icons/headphones-disconnected.png"
-			}
+		"refreshInterval": 60,
+		"align": "left",
+		"image": {
+			"base64": "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"
 		},
-		"action": "appleScript",
-		"actionAppleScript": {
-			"filePath": "~/dev/mtmr-config/appleScripts/toggle-bluetooth-headphones-state.scpt"
-		},
-		"align": "right",
 		"bordered": false
 	},
 	{
@@ -30,5 +21,27 @@
 			"filePath": "~/dev/mtmr-config/icons/terminal.png"
 		},
 		"background": "#000000"
+	},
+	{
+		"type": "appleScriptTitledButton",
+		"source": {
+			"inline": "if application \"Spotify\" is running then\rtell application \"Spotify\"\rreturn (get artist of current track) & \" – \" & (get name of current track)\rend tell\rend if\rreturn \"\"\r"
+		},
+		"action": "appleScript",
+		"actionAppleScript": {
+			"inline": "if application \"Spotify\" is running then\rtell application \"Spotify\"\rif player state is playing then\rpause\relse\rplay\rend if\rend tell\rend if\r"
+		},
+		"refreshInterval": 2,
+		"image": {
+			"base64": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAYUExURUdwTB3WXx3UXh3VXx7XYBkXFRpVLRyURmIaeAQAAAAEdFJOUwDDO3fSqUUkAAABbklEQVRIx61VbW6DMAztoAeYNA7ApB6gkzhAWS24wIAL0HABaK6/pHFNEhy8TXu/kPzkPD/8cTj8K7KPAqB+K5NhQPCUrABCXe7HOUYYZxgVRLiG8RfY4DUgFFtC7cffAfZTFBwBdhWEKfgEq4ocEjgj4ZQifO6/QG9kkETp1dDeVWfRKx3XYSW0LoqY5kCElXDrQkyeCCuh6WL0M4nIWQIyzqixdfKU1koFDKvyCA8NJMzU4xiD+b4kfHRpsIyKc6hBwjVptFHVY51EMAINNDFGJITKDNQcdpX74Hz0CQ3rY5qwMp4EIxrlafzrsYZ2Veb0DkRgfNCUok4Y1fqEijfyi2b8RE9beWqa48Y/uvCNMcH9btfUi+/CGLR1vhL6Zz9N/vBlaCU+7lwY/cmJ67Ryen/2tj23PLqJBodZH8vgj544vOL4pxfI5acrSFxi8hrkU9TSKr78ZpnL50A8KPJJEo+afBblwyqf5j/iGys5j6ScrST2AAAAAElFTkSuQmCC"
+		},
+		"background": "#000000"
+	},
+	{
+		"type": "shellScriptTitledButton",
+		"source": {
+			"inline": "/opt/homebrew/bin/adb shell dumpsys media_session | grep -m1 \"description\" | awk -F'=' '{print $3}'"
+		},
+		"refreshInterval": 2,
 	}
 ]
